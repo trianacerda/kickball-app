@@ -21,6 +21,7 @@ function TeamList() {
       <h1>List of Teams:</h1>
       <ul>
         {teams.map((team) => {
+          console.log('teams', teams);
           return (
             <li key={team.id}>
               <Link to={`/teams/${team.id}`} className="team-list-link">
