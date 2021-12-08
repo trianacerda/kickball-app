@@ -8,6 +8,7 @@ function TeamList() {
   useEffect(() => {
     getTeams().then((resp) => setTeams(resp));
   }, []);
+
   return (
     <>
       <h1>List of Teams:</h1>
