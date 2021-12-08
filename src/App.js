@@ -13,7 +13,7 @@ function App() {
           <NavLink to="/" className="home-link" exact>
             Home
           </NavLink>
-          <NavLink to="/" className="teams-link">
+          <NavLink to="/teams" className="teams-link" exact>
             Teams
           </NavLink>
         </header>
