@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { getTeams } from '../../services/teams';
 
 function TeamList() {
@@ -11,6 +11,13 @@ function TeamList() {
 
   return (
     <>
+      <NavLink to="/" className="home-link" exact>
+        Home
+      </NavLink>
+      <NavLink to="/players" className="player-link" exact>
+        Players
+      </NavLink>
+
       <h1>List of Teams:</h1>
       <ul>
         {teams.map((team) => {

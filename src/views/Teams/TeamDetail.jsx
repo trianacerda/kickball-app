@@ -1,5 +1,5 @@
+import { NavLink, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { getTeamById } from '../../services/teams';
 
 function TeamDetail({ label, match }) {
@@ -18,6 +18,12 @@ function TeamDetail({ label, match }) {
   return (
     <>
       <h1>{label}</h1>
+      <NavLink to="/" className="home-link" exact>
+        Home
+      </NavLink>
+      <NavLink to="/teams" className="team-link" exact>
+        Teams
+      </NavLink>
       <p>
         <Link to="/teams" className="team-link">
           Back to Team Page

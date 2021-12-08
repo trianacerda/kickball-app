@@ -3,27 +3,20 @@ import './App.css';
 import TeamDetail from './views/Teams/TeamDetail';
 import TeamList from './views/Teams/TeamList';
 import Home from './views/Home/Home';
+import PlayerList from './views/Players/PlayerList';
+import PlayerDetail from './views/Players/PlayerDetail';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <header>
-          Kickball Y'all
-          <NavLink to="/" className="home-link" exact>
-            Home
-          </NavLink>
-          <NavLink to="/teams" className="teams-link" exact>
-            Teams
-          </NavLink>
-        </header>
+        <header>Kickball Y'all</header>
         <Switch>
-          <Route
-            path="/teams/:teamId"
-            render={(routerProps) => <TeamDetail label="Team Details Label" {...routerProps} />}
-          />
+          <Route exact path="/" component={Home} />
           <Route path="/teams" component={TeamList} />
-          <Route path="/" component={Home} />
+          <Route path="/teams/:teamId" component={TeamDetail} />
+          <Route path="/players" component={PlayerList} />
+          <Route path="/players/:playerId" component={PlayerDetail} />
         </Switch>
       </Router>
     </div>
