@@ -7,6 +7,14 @@ function TeamDetail({ label, match }) {
   const [team, setTeam] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  useEffect(() => {
+    getTeamById(teamId)
+      .then((resp) => setTeam(resp))
+      .finally(() => setLoading(false));
+  }, [teamId]);
+
+  if (loading) return <h1>Please wait, the team is loading...</h1>;
+
   return (
     <>
       <h1>{label}</h1>
@@ -23,7 +31,7 @@ function TeamDetail({ label, match }) {
         {team.players.map((player) => {
           return (
             <li key={player.id}>
-              {player.position} - {player.name}
+              Position: {player.position} - Name:{player.name}
             </li>
           );
         })}
