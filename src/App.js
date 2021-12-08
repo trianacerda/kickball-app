@@ -5,6 +5,7 @@ import TeamList from './views/Teams/TeamList';
 import Home from './views/Home/Home';
 import PlayerList from './views/Players/PlayerList';
 import PlayerDetail from './views/Players/PlayerDetail';
+import AddTeam from './views/Teams/AddTeam';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/teams" component={TeamList} />
           <Route path="/teams/:teamId" component={TeamDetail} />
+          <Route path="/teams/new" component={AddTeam} />
           <Route path="/players" component={PlayerList} />
           <Route path="/players/:playerId" component={PlayerDetail} />
         </Switch>
