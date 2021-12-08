@@ -14,7 +14,8 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
-    'no-restricted-gloabls': 'off',
+    'no-restricted-globals': ['error', 'event', 'fdescribe'],
+    'no-alert': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/jsx-props-no-spreading': 'off',
     'prettier/prettier': [
