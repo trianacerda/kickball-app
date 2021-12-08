@@ -1,16 +1,18 @@
 import { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import { createTeam } from '../../services/teams';
 
 function AddTeam() {
   const [name, setName] = useState('');
   const [city, setCity] = useState('');
   const [state, setState] = useState('');
+  const history = useHistory();
 
   const onSubmit = async (e) => {
     e.preventDefault();
+    const response = await createTeam({ name, city, state });
+    history.push(`/teams/${response[0].id}`);
   };
-
-  createTeam({ name, city, state });
 
   return (
     <fieldset>
@@ -22,8 +24,8 @@ function AddTeam() {
           name="name"
           id="name"
           value={name}
-          onChange={({ target }) => {
-            setName(target.value);
+          onChange={(e) => {
+            setName(e.target.value);
           }}
         />
 
@@ -33,8 +35,8 @@ function AddTeam() {
           name="city"
           id="city"
           value={city}
-          onChange={({ target }) => {
-            setCity(target.value);
+          onChange={(e) => {
+            setCity(e.target.value);
           }}
         />
 
@@ -44,8 +46,8 @@ function AddTeam() {
           name="state"
           id="state"
           value={state}
-          onChange={({ target }) => {
-            setState(target.value);
+          onChange={(e) => {
+            setState(e.target.value);
           }}
         />
 

@@ -2,7 +2,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getTeamById } from '../../services/teams';
 
-function TeamDetail({ label, match }) {
+function TeamDetail({ match }) {
   const { teamId } = match.params;
   const [team, setTeam] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -11,24 +11,24 @@ function TeamDetail({ label, match }) {
     getTeamById(teamId)
       .then((resp) => setTeam(resp))
       .finally(() => setLoading(false));
+    console.log('teamId', teamId);
   }, [teamId]);
 
   if (loading) return <h1>Please wait, the team is loading...</h1>;
 
   return (
     <>
-      <h1>{label}</h1>
-      <NavLink to="/" className="home-link" exact>
-        Home
-      </NavLink>
-      <NavLink to="/teams" className="team-link" exact>
-        Teams
-      </NavLink>
       <p>
-        <Link to="/teams" className="team-link">
-          Back to Team Page
+        <Link to="/" className="home-link" exact>
+          Home
         </Link>
       </p>
+      <p>
+        <Link to="/teams" className="team-link" exact>
+          Teams
+        </Link>
+      </p>
+
       <h1>{team.name}</h1>
       <p>
         From {team.city}, {team.state}
