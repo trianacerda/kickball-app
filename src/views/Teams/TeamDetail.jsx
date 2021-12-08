@@ -11,7 +11,6 @@ function TeamDetail({ match }) {
     getTeamById(teamId)
       .then((resp) => setTeam(resp))
       .finally(() => setLoading(false));
-    console.log('teamId', teamId);
   }, [teamId]);
 
   if (loading) return <h1>Please wait, the team is loading...</h1>;

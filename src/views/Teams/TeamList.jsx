@@ -1,13 +1,32 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getTeams } from '../../services/teams';
+import { deleteTeamById, getTeams } from '../../services/teams';
 
 function TeamList() {
+  const [loading, setLoading] = useState(true);
   const [teams, setTeams] = useState([]);
 
+  const loadTeams = async () => {
+    setLoading(true);
+    const resp = await getTeams();
+    setTeams(resp);
+    setLoading(false);
+  };
+
   useEffect(() => {
-    getTeams().then((resp) => setTeams(resp));
+    loadTeams();
   }, []);
+
+  const handleDelete = async ({ id, name }) => {
+    const shouldDelete = confirm(`Are you sure you wanna delete ${name}??`);
+
+    if (shouldDelete) {
+      await deleteTeamById(id);
+      await loadTeams();
+    }
+  };
+
+  if (loading) return <h1>Loading teams.....</h1>;
 
   return (
     <>
@@ -30,6 +49,16 @@ function TeamList() {
               <Link to={`/teams/${team.id}`} className="team-list-link">
                 {team.name}
               </Link>
+              <button
+                aria-label={`Delete${team.name}`}
+                type="button"
+                value="delete"
+                onClick={() => {
+                  handleDelete({ id: team.id, name: team.name });
+                }}
+              >
+                Delete
+              </button>
             </li>
           );
         })}
