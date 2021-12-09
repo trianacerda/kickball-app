@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a list of teams 1`] = `
+<div>
+  <a
+    class="home-link"
+    href="/"
+  >
+    Home
+  </a>
+  <a
+    class="player-link"
+    href="/players"
+  >
+    Players
+  </a>
+  <a
+    class="new-team-link"
+    href="/teams/new"
+  >
+    Add a New Team
+  </a>
+  <h1>
+    List of Teams:
+  </h1>
+  <ul
+    aria-label="teams"
+  >
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/3"
+      >
+        Luna's Looney Tunes
+      </a>
+      <button
+        aria-label="DeleteLuna's Looney Tunes"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/1"
+      >
+        Tala Loves Snacks
+      </a>
+      <button
+        aria-label="DeleteTala Loves Snacks"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/2"
+      >
+        Tony as Monk
+      </a>
+      <button
+        aria-label="DeleteTony as Monk"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+  </ul>
+</div>
+`;

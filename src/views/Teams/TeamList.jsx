@@ -41,7 +41,7 @@ function TeamList() {
       </Link>
 
       <h1>List of Teams:</h1>
-      <ul>
+      <ul aria-label="teams">
         {teams.map((team) => {
           console.log('teams', teams);
           return (
