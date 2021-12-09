@@ -10,7 +10,7 @@ it('should render a detailed view of an individual team by id', async () => {
   );
 
   screen.getByText('Please wait, the team is loading...');
-  const teamName = await screen.findByText('Tala Loves Snacks', { exact: false });
+  const teamName = await screen.findByText('Tala Loves Snacks', { name: 'team-name' });
 
   expect(teamName).toBeInTheDocument();
   expect(container).toMatchSnapshot();

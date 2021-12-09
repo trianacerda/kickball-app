@@ -18,17 +18,17 @@ function TeamDetail({ match }) {
   return (
     <>
       <p>
-        <Link to="/" className="home-link" exact>
+        <Link to="/" className="home-link">
           Home
         </Link>
       </p>
       <p>
-        <Link to="/teams" className="team-link" exact>
+        <Link to="/teams" className="team-link">
           Teams
         </Link>
       </p>
 
-      <h1>{team.name}</h1>
+      <h1 name="team-name">{team.name}</h1>
       <p>
         From {team.city}, {team.state}
       </p>

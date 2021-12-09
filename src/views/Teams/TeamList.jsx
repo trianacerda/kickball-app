@@ -30,23 +30,22 @@ function TeamList() {
 
   return (
     <>
-      <Link to="/" className="home-link" exact>
+      <Link to="/" className="home-link">
         Home
       </Link>
-      <Link to="/players" className="player-link" exact>
+      <Link to="/players" className="player-link">
         Players
       </Link>
-      <Link to="/teams/new" className="new-team-link" exact>
+      <Link to="/teams/new" className="new-team-link">
         Add a New Team
       </Link>
 
       <h1>List of Teams:</h1>
       <ul aria-label="teams">
         {teams.map((team) => {
-          console.log('teams', teams);
           return (
             <li key={team.id}>
-              <Link to={`/teams/${team.id}`} className="team-list-link">
+              <Link to={`/teams/${team.id}`} className="team-list-link" name={team.name}>
                 {team.name}
               </Link>
               <button

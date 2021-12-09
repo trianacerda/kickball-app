@@ -18,7 +18,9 @@ exports[`should render a detailed view of an individual team by id 1`] = `
       Teams
     </a>
   </p>
-  <h1>
+  <h1
+    name="team-name"
+  >
     Tala Loves Snacks
   </h1>
   <p>

@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a list of players 1`] = `
+<div>
+  <a
+    aria-current="page"
+    class="home-link active"
+    href="/"
+  >
+    Home
+  </a>
+  <a
+    class="team-link"
+    href="/teams"
+  >
+    Teams
+  </a>
+  <h1>
+    List of Players:
+  </h1>
+  <ul
+    aria-label="players-list"
+  >
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/12"
+      >
+         X Æ A-12
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/17"
+      >
+        Ace Auburn
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/18"
+      >
+        Aven Garrett
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/2"
+      >
+        Bella Boo
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/16"
+      >
+        Calton Bryden
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/4"
+      >
+        Charleston Dax
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/5"
+      >
+        Crispin Cruz
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/6"
+      >
+        Declan Ebenezer
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/7"
+      >
+        Ike Jaspin
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/1"
+      >
+        Jonny  
+Clutch
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/8"
+      >
+        Kai Judson
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/9"
+      >
+        Kayden Kale
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/19"
+      >
+        Kingston Lathan
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/20"
+      >
+        Leland Kole
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/15"
+      >
+        Marvel Oz
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/3"
+      >
+        Mista Mista
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/13"
+      >
+        Nellary Nestor
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/14"
+      >
+        Ode Mountain
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/10"
+      >
+        Slash Taden
+      </a>
+    </li>
+    <li>
+      <a
+        class="player-list-link"
+        href="/players/11"
+      >
+        Tevin Zee
+      </a>
+    </li>
+  </ul>
+</div>
+`;

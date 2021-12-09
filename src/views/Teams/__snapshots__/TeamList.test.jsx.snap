@@ -30,6 +30,7 @@ exports[`should render a list of teams 1`] = `
       <a
         class="team-list-link"
         href="/teams/3"
+        name="Luna's Looney Tunes"
       >
         Luna's Looney Tunes
       </a>
@@ -45,6 +46,7 @@ exports[`should render a list of teams 1`] = `
       <a
         class="team-list-link"
         href="/teams/1"
+        name="Tala Loves Snacks"
       >
         Tala Loves Snacks
       </a>
@@ -60,6 +62,7 @@ exports[`should render a list of teams 1`] = `
       <a
         class="team-list-link"
         href="/teams/2"
+        name="Tony as Monk"
       >
         Tony as Monk
       </a>

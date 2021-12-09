@@ -18,7 +18,7 @@ function PlayerList() {
         Teams
       </NavLink>
       <h1>List of Players:</h1>
-      <ul>
+      <ul aria-label="players-list">
         {players.map((player) => {
           return (
             <li key={player.id}>
