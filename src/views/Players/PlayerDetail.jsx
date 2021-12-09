@@ -31,7 +31,7 @@ function PlayerDetail({ match }) {
         <li>Position: {player.position}</li>
         <li>Team: {player.teams.name}</li>
         <li>
-          From: {player.city}, {player.state}
+          From: {player.teams.city}, {player.teams.state}
         </li>
       </ul>
     </>
