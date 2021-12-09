@@ -27,8 +27,7 @@ function TeamDetail({ match }) {
           Teams
         </Link>
       </p>
-
-      <h1 name="team-name">{team.name}</h1>
+      - <h1 name="team-name">{team.name}</h1>
       <p>
         From {team.city}, {team.state}
       </p>
