@@ -26,7 +26,6 @@ function PlayerDetail({ match }) {
       <NavLink to="/players" className="player-link" exact>
         Players
       </NavLink>
-
       <h1>{player.name}</h1>
       <ul>
         <li>Position: {player.position}</li>
