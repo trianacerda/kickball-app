@@ -28,12 +28,13 @@ function PlayerDetail({ match }) {
       </NavLink>
 
       <h1>{player.name}</h1>
-      <p>
-        Position {player.position}, {player.teams.name}
-      </p>
-      <p>
-        From {player.city}, {player.state}
-      </p>
+      <ul>
+        <li>Position: {player.position}</li>
+        <li>Team: {player.teams.name}</li>
+        <li>
+          From: {player.city}, {player.state}
+        </li>
+      </ul>
     </>
   );
 }
