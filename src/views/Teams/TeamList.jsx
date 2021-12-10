@@ -30,13 +30,21 @@ function TeamList() {
 
   return (
     <>
-      <Link to="/" className="home-link">
+      <Link to="/" className="home-link" style={{ display: 'flex', flexDirection: 'start' }}>
         Home
       </Link>
-      <Link to="/players" className="player-link">
+      <Link
+        to="/players"
+        className="player-link"
+        style={{ display: 'flex', flexDirection: 'start' }}
+      >
         Players
       </Link>
-      <Link to="/teams/new" className="new-team-link">
+      <Link
+        to="/teams/new"
+        className="new-team-link"
+        style={{ display: 'flex', flexDirection: 'start' }}
+      >
         Add a New Team
       </Link>
 
@@ -48,8 +56,12 @@ function TeamList() {
               <Link to={`/teams/${team.id}`} className="team-list-link" name={team.name}>
                 {team.name}
               </Link>
-              <Link to={`/teams/${team.id}/update`} className="update-team-link">
-                Update a Team
+              <Link
+                to={`/teams/${team.id}/update`}
+                className="update-team-link"
+                style={{ display: 'flex', flexDirection: 'column-reverse' }}
+              >
+                Update Team
               </Link>
               <button
                 aria-label={`Delete${team.name}`}

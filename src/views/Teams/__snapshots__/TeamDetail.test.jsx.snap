@@ -6,6 +6,7 @@ exports[`should render a detailed view of an individual team by id 1`] = `
     <a
       class="home-link"
       href="/"
+      style="display: flex; flex-direction: start;"
     >
       Home
     </a>
@@ -14,6 +15,7 @@ exports[`should render a detailed view of an individual team by id 1`] = `
     <a
       class="team-link"
       href="/teams"
+      style="display: flex; flex-direction: start;"
     >
       Teams
     </a>

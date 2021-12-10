@@ -19,13 +19,23 @@ function UpdateTeam({ match }) {
   return (
     <>
       <h1>Update a Team!</h1>
-      <Link to="/" className="home-link">
+      <Link to="/" className="home-link" style={{ display: 'flex', flexDirection: 'start' }}>
         Home
       </Link>
-      <Link to="/teams" className="teams-link" exact>
+      <Link
+        to="/teams"
+        className="teams-link"
+        exact
+        style={{ display: 'flex', flexDirection: 'start' }}
+      >
         Teams
       </Link>
-      <Link to="/players" className="player-link" exact>
+      <Link
+        to="/players"
+        className="player-link"
+        exact
+        style={{ display: 'flex', flexDirection: 'start' }}
+      >
         Players
       </Link>
       <Form

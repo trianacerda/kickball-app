@@ -5,18 +5,21 @@ exports[`should render a list of teams 1`] = `
   <a
     class="home-link"
     href="/"
+    style="display: flex; flex-direction: start;"
   >
     Home
   </a>
   <a
     class="player-link"
     href="/players"
+    style="display: flex; flex-direction: start;"
   >
     Players
   </a>
   <a
     class="new-team-link"
     href="/teams/new"
+    style="display: flex; flex-direction: start;"
   >
     Add a New Team
   </a>
@@ -37,8 +40,9 @@ exports[`should render a list of teams 1`] = `
       <a
         class="update-team-link"
         href="/teams/3/update"
+        style="display: flex; flex-direction: column-reverse;"
       >
-        Update a Team
+        Update Team
       </a>
       <button
         aria-label="DeleteLuna's Looney Tunes"
@@ -59,8 +63,9 @@ exports[`should render a list of teams 1`] = `
       <a
         class="update-team-link"
         href="/teams/7/update"
+        style="display: flex; flex-direction: column-reverse;"
       >
-        Update a Team
+        Update Team
       </a>
       <button
         aria-label="DeleteMister loves food"
@@ -81,8 +86,9 @@ exports[`should render a list of teams 1`] = `
       <a
         class="update-team-link"
         href="/teams/1/update"
+        style="display: flex; flex-direction: column-reverse;"
       >
-        Update a Team
+        Update Team
       </a>
       <button
         aria-label="DeleteTala Loves Snacks"
@@ -103,8 +109,9 @@ exports[`should render a list of teams 1`] = `
       <a
         class="update-team-link"
         href="/teams/2/update"
+        style="display: flex; flex-direction: column-reverse;"
       >
-        Update a Team
+        Update Team
       </a>
       <button
         aria-label="DeleteTony as Monk"

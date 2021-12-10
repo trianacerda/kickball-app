@@ -6,18 +6,21 @@ exports[`should render a detailed view of an individual player by id  1`] = `
     aria-current="page"
     class="home-link active"
     href="/"
+    style="display: flex; flex-direction: start;"
   >
     Home
   </a>
   <a
     class="team-link"
     href="/teams"
+    style="display: flex; flex-direction: start;"
   >
     Teams
   </a>
   <a
     class="player-link"
     href="/players"
+    style="display: flex; flex-direction: start;"
   >
     Players
   </a>

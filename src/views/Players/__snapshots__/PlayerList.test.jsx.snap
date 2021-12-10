@@ -6,12 +6,14 @@ exports[`should render a list of players 1`] = `
     aria-current="page"
     class="home-link active"
     href="/"
+    style="display: flex; flex-direction: start;"
   >
     Home
   </a>
   <a
     class="team-link"
     href="/teams"
+    style="display: flex; flex-direction: start;"
   >
     Teams
   </a>

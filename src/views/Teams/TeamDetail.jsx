@@ -18,12 +18,12 @@ function TeamDetail({ match }) {
   return (
     <>
       <p>
-        <Link to="/" className="home-link">
+        <Link to="/" className="home-link" style={{ display: 'flex', flexDirection: 'start' }}>
           Home
         </Link>
       </p>
       <p>
-        <Link to="/teams" className="team-link">
+        <Link to="/teams" className="team-link" style={{ display: 'flex', flexDirection: 'start' }}>
           Teams
         </Link>
       </p>

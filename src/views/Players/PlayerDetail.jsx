@@ -17,13 +17,28 @@ function PlayerDetail({ match }) {
 
   return (
     <>
-      <NavLink to="/" className="home-link" exact>
+      <NavLink
+        to="/"
+        className="home-link"
+        exact
+        style={{ display: 'flex', flexDirection: 'start' }}
+      >
         Home
       </NavLink>
-      <NavLink to="/teams" className="team-link" exact>
+      <NavLink
+        to="/teams"
+        className="team-link"
+        exact
+        style={{ display: 'flex', flexDirection: 'start' }}
+      >
         Teams
       </NavLink>
-      <NavLink to="/players" className="player-link" exact>
+      <NavLink
+        to="/players"
+        className="player-link"
+        exact
+        style={{ display: 'flex', flexDirection: 'start' }}
+      >
         Players
       </NavLink>
       <h1>{player.name}</h1>
