@@ -48,6 +48,9 @@ function TeamList() {
               <Link to={`/teams/${team.id}`} className="team-list-link" name={team.name}>
                 {team.name}
               </Link>
+              <Link to={`/teams/${team.id}/update`} className="update-team-link">
+                Update a Team
+              </Link>
               <button
                 aria-label={`Delete${team.name}`}
                 type="button"

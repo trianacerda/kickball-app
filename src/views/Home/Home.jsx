@@ -1,15 +1,15 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 function Home() {
   return (
     <>
-      <NavLink to="/teams" className="teams-link" exact>
+      <Link to="/teams" className="teams-link" exact>
         Teams
-      </NavLink>
-      <NavLink to="/players" className="player-link" exact>
+      </Link>
+      <Link to="/players" className="player-link" exact>
         Players
-      </NavLink>
+      </Link>
       <h1>Hi from the home page!!!!!</h1>
     </>
   );

@@ -34,8 +34,36 @@ exports[`should render a list of teams 1`] = `
       >
         Luna's Looney Tunes
       </a>
+      <a
+        class="update-team-link"
+        href="/teams/3/update"
+      >
+        Update a Team
+      </a>
       <button
         aria-label="DeleteLuna's Looney Tunes"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/7"
+        name="Mister loves food"
+      >
+        Mister loves food
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/7/update"
+      >
+        Update a Team
+      </a>
+      <button
+        aria-label="DeleteMister loves food"
         type="button"
         value="delete"
       >
@@ -49,6 +77,12 @@ exports[`should render a list of teams 1`] = `
         name="Tala Loves Snacks"
       >
         Tala Loves Snacks
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/1/update"
+      >
+        Update a Team
       </a>
       <button
         aria-label="DeleteTala Loves Snacks"
@@ -65,6 +99,12 @@ exports[`should render a list of teams 1`] = `
         name="Tony as Monk"
       >
         Tony as Monk
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/2/update"
+      >
+        Update a Team
       </a>
       <button
         aria-label="DeleteTony as Monk"
