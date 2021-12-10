@@ -13,7 +13,7 @@ function PlayerDetail({ match }) {
       .finally(() => setLoading(false));
   }, [playerId]);
 
-  if (loading) return <h1>Please wait, your selected Player is loading...</h1>;
+  if (loading) return <h1>Please wait, your selected player is loading...</h1>;
 
   return (
     <>
