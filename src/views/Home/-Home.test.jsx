@@ -10,8 +10,6 @@ it('should render the home page', async () => {
   );
 
   const homePage = await screen.findByText('Hi from the home page!!!!!');
-  const kickball = await screen.findByText('Kickball', { exact: false });
-
-  expect(homePage, kickball).toBeInTheDocument();
+  expect(homePage).toBeInTheDocument();
   expect(container).toMatchSnapshot();
 });

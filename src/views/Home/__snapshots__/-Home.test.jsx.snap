@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the home page 1`] = `
+<div>
+  <a
+    class="teams-link"
+    href="/teams"
+    style="display: flex; flex-direction: start;"
+  >
+    Teams
+  </a>
+  <a
+    class="player-link"
+    href="/players"
+    style="display: flex; flex-direction: start;"
+  >
+    Players
+  </a>
+  <h1>
+    Hi from the home page!!!!!
+  </h1>
+</div>
+`;

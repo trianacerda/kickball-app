@@ -55,29 +55,6 @@ exports[`should render a list of teams 1`] = `
     <li>
       <a
         class="team-list-link"
-        href="/teams/7"
-        name="Mister loves food"
-      >
-        Mister loves food
-      </a>
-      <a
-        class="update-team-link"
-        href="/teams/7/update"
-        style="display: flex; flex-direction: column-reverse;"
-      >
-        Update Team
-      </a>
-      <button
-        aria-label="DeleteMister loves food"
-        type="button"
-        value="delete"
-      >
-        Delete
-      </button>
-    </li>
-    <li>
-      <a
-        class="team-list-link"
         href="/teams/1"
         name="Tala Loves Snacks"
       >

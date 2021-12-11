@@ -20,170 +20,538 @@ exports[`should render a list of players 1`] = `
   <h1>
     List of Players:
   </h1>
+  <a
+    class="new-player-link"
+    href="/players/new"
+    style="display: flex; flex-direction: column-reverse;"
+  >
+    Add a Player
+  </a>
   <ul
     aria-label="players-list"
   >
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/12"
-      >
-         X Æ A-12
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/17"
-      >
-        Ace Auburn
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/18"
-      >
-        Aven Garrett
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/2"
-      >
-        Bella Boo
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/16"
-      >
-        Calton Bryden
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/4"
-      >
-        Charleston Dax
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/5"
-      >
-        Crispin Cruz
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/6"
-      >
-        Declan Ebenezer
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/7"
-      >
-        Ike Jaspin
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/1"
-      >
-        Jonny  
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/12"
+        >
+           X Æ A-12
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/12/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="Delete X Æ A-12"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/17"
+        >
+          Ace Auburn
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/17/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteAce Auburn"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/18"
+        >
+          Aven Garrett
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/18/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteAven Garrett"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/2"
+        >
+          Bella Boo
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/2/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteBella Boo"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/16"
+        >
+          Calton Bryden
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/16/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteCalton Bryden"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/4"
+        >
+          Charleston Dax
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/4/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteCharleston Dax"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/5"
+        >
+          Crispin Cruz
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/5/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteCrispin Cruz"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/6"
+        >
+          Declan Ebenezer
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/6/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteDeclan Ebenezer"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/7"
+        >
+          Ike Jaspin
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/7/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteIke Jaspin"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/1"
+        >
+          Jonny  
 Clutch
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/8"
-      >
-        Kai Judson
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/9"
-      >
-        Kayden Kale
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/19"
-      >
-        Kingston Lathan
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/20"
-      >
-        Leland Kole
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/15"
-      >
-        Marvel Oz
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/3"
-      >
-        Mista Mista
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/13"
-      >
-        Nellary Nestor
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/14"
-      >
-        Ode Mountain
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/10"
-      >
-        Slash Taden
-      </a>
-    </li>
-    <li>
-      <a
-        class="player-list-link"
-        href="/players/11"
-      >
-        Tevin Zee
-      </a>
-    </li>
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/1/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteJonny  
+Clutch"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/8"
+        >
+          Kai Judson
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/8/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteKai Judson"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/9"
+        >
+          Kayden Kale
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/9/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteKayden Kale"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/19"
+        >
+          Kingston Lathan
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/19/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteKingston Lathan"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/20"
+        >
+          Leland Kole
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/20/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteLeland Kole"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/15"
+        >
+          Marvel Oz
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/15/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteMarvel Oz"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/3"
+        >
+          Mista Mista
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/3/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteMista Mista"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/13"
+        >
+          Nellary Nestor
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/13/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteNellary Nestor"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/14"
+        >
+          Ode Mountain
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/14/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteOde Mountain"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/10"
+        >
+          Slash Taden
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/10/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteSlash Taden"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/11"
+        >
+          Tevin Zee
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/11/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="DeleteTevin Zee"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
   </ul>
 </div>
 `;
