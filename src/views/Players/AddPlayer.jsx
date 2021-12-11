@@ -5,7 +5,6 @@ import { createPlayer } from '../../services/players';
 import { getTeams } from '../../services/teams';
 
 function AddPlayer() {
-  const [loading, setLoading] = useState('');
   const [name, setName] = useState('');
   const [position, setPosition] = useState('');
   const [selectedTeam, setSelectedTeam] = useState('');
