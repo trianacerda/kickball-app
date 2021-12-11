@@ -17,10 +17,12 @@ function App() {
         <header>Kickball Y'all</header>
         <Switch>
           <Route exact path="/" component={Home} />
+
           <Route exact path="/teams" component={TeamList} />
           <Route exact path="/teams/new" component={AddTeam} />
           <Route exact path="/teams/:teamId" component={TeamDetail} />
           <Route exact path="/teams/:teamId/update" component={UpdateTeam} />
+
           <Route exact path="/players" component={PlayerList} />
           <Route exact path="/players/new" component={AddPlayer} />
           <Route exact path="/players/:playerId" component={PlayerDetail} />

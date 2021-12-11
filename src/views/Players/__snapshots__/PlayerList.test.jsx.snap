@@ -552,6 +552,32 @@ Clutch"
         </button>
       </li>
     </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/28"
+        >
+          triana
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/28/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="Deletetriana"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
   </ul>
 </div>
 `;

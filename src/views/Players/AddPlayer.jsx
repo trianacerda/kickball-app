@@ -17,7 +17,7 @@ function AddPlayer() {
       setTeams(fetchTeams);
     }
     getAllTeams();
-  });
+  }, []);
 
   useEffect(() => {
     async function getSelectedTeam() {

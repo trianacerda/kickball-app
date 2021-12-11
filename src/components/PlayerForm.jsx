@@ -1,5 +1,3 @@
-import TeamList from '../views/Teams/TeamList';
-
 function PlayerForm({
   name,
   setName,
