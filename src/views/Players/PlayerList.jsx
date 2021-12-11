@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { getPlayers } from '../../services/players';
+import AddPlayer from './AddPlayer';
 
 function PlayerList() {
   const [players, setPlayers] = useState([]);
@@ -28,6 +29,14 @@ function PlayerList() {
         Teams
       </NavLink>
       <h1>List of Players:</h1>
+      <NavLink
+        to="/players/new"
+        className="new-player-link"
+        exact
+        style={{ display: 'flex', flexDirection: 'column-reverse' }}
+      >
+        Add a Player
+      </NavLink>
       <ul aria-label="players-list">
         {players.map((player) => {
           return (
