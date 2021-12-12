@@ -32,6 +32,29 @@ exports[`should render a list of teams 1`] = `
     <li>
       <a
         class="team-list-link"
+        href="/teams/12"
+        name="2222"
+      >
+        2222
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/12/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="Delete2222"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
         href="/teams/3"
         name="Luna's Looney Tunes"
       >
@@ -78,6 +101,29 @@ exports[`should render a list of teams 1`] = `
     <li>
       <a
         class="team-list-link"
+        href="/teams/9"
+        name="The couch sitters"
+      >
+        The couch sitters
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/9/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="DeleteThe couch sitters"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
         href="/teams/2"
         name="Tony as Monk"
       >
@@ -92,6 +138,29 @@ exports[`should render a list of teams 1`] = `
       </a>
       <button
         aria-label="DeleteTony as Monk"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/11"
+        name="sisers mountains"
+      >
+        sisers mountains
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/11/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="Deletesisers mountains"
         type="button"
         value="delete"
       >
