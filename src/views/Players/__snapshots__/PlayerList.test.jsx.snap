@@ -62,6 +62,32 @@ exports[`should render a list of players 1`] = `
       <li>
         <a
           class="player-list-link"
+          href="/players/29"
+        >
+          111
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/29/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="Delete111"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
           href="/players/17"
         >
           Ace Auburn
@@ -558,6 +584,32 @@ Clutch"
       <li>
         <a
           class="player-list-link"
+          href="/players/30"
+        >
+          tr
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/30/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="Deletetr"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
           href="/players/28"
         >
           triana
@@ -565,6 +617,32 @@ Clutch"
         <a
           class="update-player-link"
           href="/players/28/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="Deletetriana"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/31"
+        >
+          triana
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/31/update"
           style="display: flex; flex-direction: column-reverse; margin: 15px;"
         >
           Update Player

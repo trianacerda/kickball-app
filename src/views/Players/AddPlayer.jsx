@@ -40,18 +40,12 @@ function AddPlayer() {
   return (
     <>
       <h1>Add a Playa!</h1>
-      <Link
-        to="/teams"
-        className="teams-link"
-        exact
-        style={{ display: 'flex', flexDirection: 'start' }}
-      >
+      <Link to="/teams" className="teams-link" style={{ display: 'flex', flexDirection: 'start' }}>
         Teams
       </Link>
       <Link
         to="/players"
         className="player-link"
-        exact
         style={{ display: 'flex', flexDirection: 'start' }}
       >
         Players

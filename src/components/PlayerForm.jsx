@@ -21,8 +21,9 @@ function PlayerForm({
             setName(e.target.value);
           }}
         />
-        <label htmlFor="city">Position:</label>
+        <label htmlFor="position">Position:</label>
         <input
+          id="position"
           type="text"
           name="position"
           position="position"
