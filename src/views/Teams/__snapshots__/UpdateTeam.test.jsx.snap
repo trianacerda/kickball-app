@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Form component and redirect to details apart after submit 1`] = `
+<div>
+  <h1>
+    Add a New Team!
+  </h1>
+  <a
+    class="teams-link"
+    href="/teams"
+    style="display: flex; flex-direction: start;"
+  >
+    Teams
+  </a>
+  <a
+    class="player-link"
+    href="/players"
+    style="display: flex; flex-direction: start;"
+  >
+    Players
+  </a>
+  <fieldset>
+    <form>
+      <label
+        for="name"
+      >
+        Name:
+      </label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        value="The couch sitters"
+      />
+      <label
+        for="city"
+      >
+        City:
+      </label>
+      <input
+        id="city"
+        name="city"
+        type="text"
+        value="sisters"
+      />
+      <label
+        for="state"
+      >
+        State:
+      </label>
+      <input
+        id="state"
+        name="state"
+        type="text"
+        value="Oregon"
+      />
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </fieldset>
+  <h1>
+    Please wait, the team is loading...
+  </h1>
+</div>
+`;
