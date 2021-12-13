@@ -5,15 +5,12 @@ import { getPlayerById } from '../../services/players';
 function PlayerDetail({ match }) {
   const { playerId } = match.params;
   const [player, setPlayer] = useState(null);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getPlayerById(playerId)
-      .then((resp) => setPlayer(resp))
-      .finally(() => setLoading(false));
+    getPlayerById(playerId).then((response) => setPlayer(response));
   }, [playerId]);
 
-  if (loading) return <h1>Please wait, your selected player is loading...</h1>;
+  if (!player) return <h1>Please wait, your selected player is loading...</h1>;
 
   return (
     <>

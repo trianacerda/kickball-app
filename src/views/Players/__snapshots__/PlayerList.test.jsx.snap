@@ -36,35 +36,9 @@ exports[`should render a list of players 1`] = `
       <li>
         <a
           class="player-list-link"
-          href="/players/12"
-        >
-           X Æ A-12
-        </a>
-        <a
-          class="update-player-link"
-          href="/players/12/update"
-          style="display: flex; flex-direction: column-reverse; margin: 15px;"
-        >
-          Update Player
-        </a>
-        <button
-          aria-label="Delete X Æ A-12"
-          type="button"
-          value="delete"
-        >
-          Delete
-        </button>
-      </li>
-    </div>
-    <div
-      style="border: solid; border-color: lightseagreen;"
-    >
-      <li>
-        <a
-          class="player-list-link"
           href="/players/29"
         >
-          111
+          134
         </a>
         <a
           class="update-player-link"
@@ -74,7 +48,7 @@ exports[`should render a list of players 1`] = `
           Update Player
         </a>
         <button
-          aria-label="Delete111"
+          aria-label="Delete134"
           type="button"
           value="delete"
         >
@@ -584,6 +558,58 @@ Clutch"
       <li>
         <a
           class="player-list-link"
+          href="/players/31"
+        >
+          blast
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/31/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="Deleteblast"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
+          href="/players/12"
+        >
+          jon
+        </a>
+        <a
+          class="update-player-link"
+          href="/players/12/update"
+          style="display: flex; flex-direction: column-reverse; margin: 15px;"
+        >
+          Update Player
+        </a>
+        <button
+          aria-label="Deletejon"
+          type="button"
+          value="delete"
+        >
+          Delete
+        </button>
+      </li>
+    </div>
+    <div
+      style="border: solid; border-color: lightseagreen;"
+    >
+      <li>
+        <a
+          class="player-list-link"
           href="/players/30"
         >
           tr
@@ -617,32 +643,6 @@ Clutch"
         <a
           class="update-player-link"
           href="/players/28/update"
-          style="display: flex; flex-direction: column-reverse; margin: 15px;"
-        >
-          Update Player
-        </a>
-        <button
-          aria-label="Deletetriana"
-          type="button"
-          value="delete"
-        >
-          Delete
-        </button>
-      </li>
-    </div>
-    <div
-      style="border: solid; border-color: lightseagreen;"
-    >
-      <li>
-        <a
-          class="player-list-link"
-          href="/players/31"
-        >
-          triana
-        </a>
-        <a
-          class="update-player-link"
-          href="/players/31/update"
           style="display: flex; flex-direction: column-reverse; margin: 15px;"
         >
           Update Player

@@ -5,7 +5,7 @@ import PlayerForm from '../../components/PlayerForm';
 import { getTeams } from '../../services/teams';
 
 function UpdatePlayer({ match }) {
-  const { teamId } = match.params;
+  const { playerId } = match.params;
   const [name, setName] = useState('');
   const [position, setPosition] = useState('');
   const [selectedTeam, setSelectedTeam] = useState('');
@@ -18,24 +18,12 @@ function UpdatePlayer({ match }) {
       setTeams(fetchTeams);
     }
     getAllTeams();
-  });
-
-  useEffect(() => {
-    async function getSelectedTeam() {
-      if (!selectedTeam) return;
-
-      if (selectedTeam !== 'Please Select a Team') {
-        setSelectedTeam(selectedTeam);
-      }
-    }
-    getSelectedTeam();
-  }, [selectedTeam]);
+  }, []);
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    // const teamId = selectedTeam;
-    const response = await updatePlayerById(teamId, { name, position });
-    history.push(`/teams/${response[0].id}`);
+    const response = await updatePlayerById(playerId, { name, position });
+    history.push(`/players/${response[0].id}`);
   };
 
   return (
@@ -44,18 +32,12 @@ function UpdatePlayer({ match }) {
       <Link to="/" className="home-link" style={{ display: 'flex', flexDirection: 'start' }}>
         Home
       </Link>
-      <Link
-        to="/teams"
-        className="teams-link"
-        exact
-        style={{ display: 'flex', flexDirection: 'start' }}
-      >
+      <Link to="/teams" className="teams-link" style={{ display: 'flex', flexDirection: 'start' }}>
         Teams
       </Link>
       <Link
         to="/players"
         className="player-link"
-        exact
         style={{ display: 'flex', flexDirection: 'start' }}
       >
         Players
