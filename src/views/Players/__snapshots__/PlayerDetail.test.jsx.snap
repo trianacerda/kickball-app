@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a detailed view of an individual player by id  1`] = `
+<div>
+  <a
+    aria-current="page"
+    class="home-link active"
+    href="/"
+    style="display: flex; flex-direction: start;"
+  >
+    Home
+  </a>
+  <a
+    class="team-link"
+    href="/teams"
+    style="display: flex; flex-direction: start;"
+  >
+    Teams
+  </a>
+  <a
+    class="player-link"
+    href="/players"
+    style="display: flex; flex-direction: start;"
+  >
+    Players
+  </a>
+  <h1>
+    Jonny  
+Clutch
+  </h1>
+  <ul>
+    <li>
+      Position: 
+      Catcher
+    </li>
+    <li>
+      Team: 
+      Tala Loves Snacks
+    </li>
+    <li>
+      From: 
+      Sensitive
+      , 
+      OR
+    </li>
+  </ul>
+</div>
+`;

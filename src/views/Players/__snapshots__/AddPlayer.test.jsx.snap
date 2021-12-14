@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Form component and redirect to details part after submit 1`] = `
+<div>
+  <h1>
+    Add a Playa!
+  </h1>
+  <a
+    class="teams-link"
+    href="/teams"
+    style="display: flex; flex-direction: start;"
+  >
+    Teams
+  </a>
+  <a
+    class="player-link"
+    href="/players"
+    style="display: flex; flex-direction: start;"
+  >
+    Players
+  </a>
+  <fieldset>
+    <form>
+      <label
+        for="name"
+      >
+        Name:
+      </label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        value="T-Money"
+      />
+      <label
+        for="position"
+      >
+        Position:
+      </label>
+      <input
+        id="position"
+        name="position"
+        position="position"
+        type="text"
+        value="Big Kicker"
+      />
+      <select>
+        <option
+          value="select-team"
+        >
+          Please Select a Team
+        </option>
+        <option
+          value="3"
+        >
+          Luna's Looney Tunes
+        </option>
+      </select>
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </fieldset>
+  <a
+    aria-current="page"
+    class="home-link active"
+    href="/"
+    style="display: flex; flex-direction: start;"
+  >
+    Home
+  </a>
+  <a
+    class="team-link"
+    href="/teams"
+    style="display: flex; flex-direction: start;"
+  >
+    Teams
+  </a>
+  <a
+    class="player-link"
+    href="/players"
+    style="display: flex; flex-direction: start;"
+  >
+    Players
+  </a>
+  <h1>
+    T-Money
+  </h1>
+  <ul>
+    <li>
+      Position: 
+      Big Kicker
+    </li>
+    <li>
+      Team: 
+      Luna's Looney Tunes
+    </li>
+    <li>
+      From: 
+      Happy
+      , 
+      OR
+    </li>
+  </ul>
+</div>
+`;

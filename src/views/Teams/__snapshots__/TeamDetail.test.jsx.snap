@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a detailed view of an individual team by id 1`] = `
+<div>
+  <p>
+    <a
+      class="home-link"
+      href="/"
+      style="display: flex; flex-direction: start;"
+    >
+      Home
+    </a>
+  </p>
+  <p>
+    <a
+      class="team-link"
+      href="/teams"
+      style="display: flex; flex-direction: start;"
+    >
+      Teams
+    </a>
+  </p>
+  - 
+  <h1
+    name="team-name"
+  >
+    Tala Loves Snacks
+  </h1>
+  <p>
+    From 
+    Sensitive
+    , 
+    OR
+  </p>
+  <ul>
+    <li>
+      Position: 
+      Catcher
+       - Name:
+      Jonny  
+Clutch
+    </li>
+    <li>
+      Position: 
+      First Base
+       - Name:
+      Charleston Dax
+    </li>
+    <li>
+      Position: 
+      Second Base
+       - Name:
+      Crispin Cruz
+    </li>
+    <li>
+      Position: 
+      Pitcher
+       - Name:
+      Declan Ebenezer
+    </li>
+    <li>
+      Position: 
+      Third Base
+       - Name:
+      Ike Jaspin
+    </li>
+    <li>
+      Position: 
+      Left Field 
+       - Name:
+      Kai Judson
+    </li>
+    <li>
+      Position: 
+      Middle Field
+       - Name:
+      Kayden Kale
+    </li>
+    <li>
+      Position: 
+      Right Field
+       - Name:
+      Slash Taden
+    </li>
+    <li>
+      Position: 
+      Big Kicker
+       - Name:
+      Tevin Zee
+    </li>
+    <li>
+      Position: 
+      pitcher
+       - Name:
+      triana
+    </li>
+  </ul>
+</div>
+`;

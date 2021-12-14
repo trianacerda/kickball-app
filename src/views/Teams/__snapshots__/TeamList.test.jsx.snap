@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a list of teams 1`] = `
+<div>
+  <a
+    class="home-link"
+    href="/"
+    style="display: flex; flex-direction: start;"
+  >
+    Home
+  </a>
+  <a
+    class="player-link"
+    href="/players"
+    style="display: flex; flex-direction: start;"
+  >
+    Players
+  </a>
+  <a
+    class="new-team-link"
+    href="/teams/new"
+    style="display: flex; flex-direction: start;"
+  >
+    Add a New Team
+  </a>
+  <h1>
+    List of Teams:
+  </h1>
+  <ul
+    aria-label="teams"
+  >
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/12"
+        name="2222"
+      >
+        2222
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/12/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="Delete2222"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/3"
+        name="Luna's Looney Tunes"
+      >
+        Luna's Looney Tunes
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/3/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="DeleteLuna's Looney Tunes"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/1"
+        name="Tala Loves Snacks"
+      >
+        Tala Loves Snacks
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/1/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="DeleteTala Loves Snacks"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/9"
+        name="The couch sitters"
+      >
+        The couch sitters
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/9/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="DeleteThe couch sitters"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/2"
+        name="Tony as Monk"
+      >
+        Tony as Monk
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/2/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="DeleteTony as Monk"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        class="team-list-link"
+        href="/teams/11"
+        name="sisers mountains"
+      >
+        sisers mountains
+      </a>
+      <a
+        class="update-team-link"
+        href="/teams/11/update"
+        style="display: flex; flex-direction: column-reverse;"
+      >
+        Update Team
+      </a>
+      <button
+        aria-label="Deletesisers mountains"
+        type="button"
+        value="delete"
+      >
+        Delete
+      </button>
+    </li>
+  </ul>
+</div>
+`;
